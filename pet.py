@@ -34,3 +34,18 @@ pet3 = Pet("Shaq", "Hamster", 1)
 pet1.display_info()
 pet2.display_info()
 pet3.display_info()
+
+# Create a list of all pets
+
+pets = [pet1, pet2, pet3]
+
+# Find  non adopted
+
+def find_non_adopted(pets):
+    non_adopted = []
+    for pet in pets:
+        if not pet.adopted:
+            non_adopted.append(pet)
+    return non_adopted
+
+
