@@ -23,9 +23,14 @@ class Pet:
     def birthday(self):
         self.age += 1
 
-# Create a list of pets manually.
+# Create at least 3 pet objects .
 
 pet1 = Pet("low", "Cat", 3)
 pet2 = Pet("Zaatar", "Dog", 2)
 pet3 = Pet("Shaq", "Hamster", 1)
 
+# Call their methods and print results to verify 
+
+pet1.display_info()
+pet2.display_info()
+pet3.display_info()
