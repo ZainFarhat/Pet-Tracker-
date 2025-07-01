@@ -1,6 +1,7 @@
 # Create a Pet class
+
 class Pet:
-    #Constructor that initializes name, species, age, adopted 
+    # Constructor that initializes name, species, age, adopted 
     def __init__(self, name, species, age, adopted=False):
         self.name = name
         self.species = species
@@ -8,13 +9,23 @@ class Pet:
         self.adopted = adopted
 
 # Method to display_info() → prints all pet data in a readable sentence.
+
     def display_info(self):
         print(f"{self.name} is a {self.age}-year-old {self.species}. Adopted: {self.adopted}")
 
 #Method mark_adopted() → sets adopted to True.
+
     def mark_adopted(self):
         self.adopted = True
 
 # Method: birthday() → increases the pet's age by 1 year.
+
     def birthday(self):
         self.age += 1
+
+# Create a list of pets manually.
+
+pet1 = Pet("low", "Cat", 3)
+pet2 = Pet("Zaatar", "Dog", 2)
+pet3 = Pet("Shaq", "Hamster", 1)
+
