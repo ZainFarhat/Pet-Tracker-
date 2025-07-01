@@ -23,6 +23,7 @@ class Pet:
     def birthday(self):
         self.age += 1
 
+
 # Create at least 3 pet objects .
 
 pet1 = Pet("low", "Cat", 3)
@@ -33,6 +34,8 @@ pet3 = Pet("Shaq", "Hamster", 1)
 
 pet1.display_info()
 pet2.display_info()
+
+pet3.mark_adopted()
 pet3.display_info()
 
 # Create a list of all pets
