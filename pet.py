@@ -10,3 +10,7 @@ class Pet:
 # Method to display_info() → prints all pet data in a readable sentence.
     def display_info(self):
         print(f"{self.name} is a {self.age}-year-old {self.species}. Adopted: {self.adopted}")
+
+#Method mark_adopted() → sets adopted to True.
+    def mark_adopted(self):
+        self.adopted = True
