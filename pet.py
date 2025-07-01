@@ -14,3 +14,7 @@ class Pet:
 #Method mark_adopted() → sets adopted to True.
     def mark_adopted(self):
         self.adopted = True
+
+# Method: birthday() → increases the pet's age by 1 year.
+    def birthday(self):
+        self.age += 1
